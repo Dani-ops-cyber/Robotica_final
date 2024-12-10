@@ -1,0 +1,130 @@
+[0.622s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.622s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f96f38100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f96fc1810>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f96fc1810>>, mixin_verb=('build',))
+[2.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.020s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ponyo_ws'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveMotor) by extensions ['ignore', 'ignore_ament_install']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveMotor) by extension 'ignore'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveMotor) by extension 'ignore_ament_install'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveMotor) by extensions ['colcon_pkg']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveMotor) by extension 'colcon_pkg'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveMotor) by extensions ['colcon_meta']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveMotor) by extension 'colcon_meta'
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveMotor) by extensions ['ros']
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveMotor) by extension 'ros'
+[2.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveMotor' with type 'ros.ament_python' and name 'moveMotor'
+[2.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.307s] Level 5:colcon.colcon_core.verb:set package 'moveMotor' build argument 'cmake_args' from command line to 'None'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'moveMotor' build argument 'cmake_target' from command line to 'None'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'moveMotor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'moveMotor' build argument 'cmake_clean_cache' from command line to 'False'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'moveMotor' build argument 'cmake_clean_first' from command line to 'False'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'moveMotor' build argument 'cmake_force_configure' from command line to 'False'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'moveMotor' build argument 'ament_cmake_args' from command line to 'None'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'moveMotor' build argument 'catkin_cmake_args' from command line to 'None'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'moveMotor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.309s] DEBUG:colcon.colcon_core.verb:Building package 'moveMotor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ponyo_ws/build/moveMotor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ponyo_ws/install/moveMotor', 'merge_install': False, 'path': '/home/jetson/ponyo_ws/src/moveMotor', 'symlink_install': True, 'test_result_base': None}
+[2.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.314s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ponyo_ws/src/moveMotor' with build type 'ament_python'
+[2.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveMotor', 'ament_prefix_path')
+[2.342s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/hook/ament_prefix_path.ps1'
+[2.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/hook/ament_prefix_path.dsv'
+[2.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/hook/ament_prefix_path.sh'
+[2.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.275s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ponyo_ws/src/moveMotor'
+[3.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ponyo_ws/build/moveMotor': PYTHONPATH=/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/ponyo_ws/build/moveMotor/build --no-deps symlink_data
+[6.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveMotor', 'pythonpath_develop')
+[6.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ponyo_ws/build/moveMotor/share/moveMotor/hook/pythonpath_develop.ps1'
+[6.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ponyo_ws/build/moveMotor' returned '0': PYTHONPATH=/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/ponyo_ws/build/moveMotor/build --no-deps symlink_data
+[6.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ponyo_ws/build/moveMotor/share/moveMotor/hook/pythonpath_develop.dsv'
+[6.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ponyo_ws/build/moveMotor/share/moveMotor/hook/pythonpath_develop.sh'
+[6.555s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ponyo_ws/install/moveMotor' for CMake module files
+[6.558s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ponyo_ws/install/moveMotor' for CMake config files
+[6.560s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ponyo_ws/install/moveMotor/lib'
+[6.561s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ponyo_ws/install/moveMotor/bin'
+[6.561s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ponyo_ws/install/moveMotor/lib/pkgconfig/moveMotor.pc'
+[6.562s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages'
+[6.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveMotor', 'pythonpath')
+[6.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/hook/pythonpath.ps1'
+[6.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/hook/pythonpath.dsv'
+[6.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/hook/pythonpath.sh'
+[6.567s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ponyo_ws/install/moveMotor/bin'
+[6.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveMotor)
+[6.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/package.ps1'
+[6.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/package.dsv'
+[6.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/package.sh'
+[6.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/package.bash'
+[6.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ponyo_ws/install/moveMotor/share/moveMotor/package.zsh'
+[6.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ponyo_ws/install/moveMotor/share/colcon-core/packages/moveMotor)
+[6.598s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.599s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.635s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.665s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[31.669s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ponyo_ws/install/local_setup.ps1'
+[31.699s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ponyo_ws/install/_local_setup_util_ps1.py'
+[31.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ponyo_ws/install/setup.ps1'
+[31.726s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ponyo_ws/install/local_setup.sh'
+[31.732s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ponyo_ws/install/_local_setup_util_sh.py'
+[31.735s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ponyo_ws/install/setup.sh'
+[31.746s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ponyo_ws/install/local_setup.bash'
+[31.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ponyo_ws/install/setup.bash'
+[31.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ponyo_ws/install/local_setup.zsh'
+[31.768s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ponyo_ws/install/setup.zsh'

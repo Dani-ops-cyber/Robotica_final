@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000382] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict()}
+[0.000523] (moveMotor) JobQueued: {'identifier': 'moveMotor', 'dependencies': OrderedDict()}
+[0.000643] (main) JobStarted: {'identifier': 'main'}
+[0.044887] (moveMotor) JobStarted: {'identifier': 'moveMotor'}
+[0.097610] (-) TimerEvent: {}
+[0.198291] (-) TimerEvent: {}
+[0.298949] (-) TimerEvent: {}
+[0.399606] (-) TimerEvent: {}
+[0.500257] (-) TimerEvent: {}
+[0.600924] (-) TimerEvent: {}
+[0.701596] (-) TimerEvent: {}
+[0.802422] (-) TimerEvent: {}
+[0.903024] (-) TimerEvent: {}
+[1.003717] (-) TimerEvent: {}
+[1.104396] (-) TimerEvent: {}
+[1.205103] (-) TimerEvent: {}
+[1.305892] (-) TimerEvent: {}
+[1.406596] (-) TimerEvent: {}
+[1.507190] (-) TimerEvent: {}
+[1.607860] (-) TimerEvent: {}
+[1.708502] (-) TimerEvent: {}
+[1.809156] (-) TimerEvent: {}
+[1.909815] (-) TimerEvent: {}
+[2.010514] (-) TimerEvent: {}
+[2.111159] (-) TimerEvent: {}
+[2.211827] (-) TimerEvent: {}
+[2.312568] (-) TimerEvent: {}
+[2.413282] (-) TimerEvent: {}
+[2.514034] (-) TimerEvent: {}
+[2.614758] (-) TimerEvent: {}
+[2.715405] (-) TimerEvent: {}
+[2.816046] (-) TimerEvent: {}
+[2.916699] (-) TimerEvent: {}
+[3.017391] (-) TimerEvent: {}
+[3.118057] (-) TimerEvent: {}
+[3.218688] (-) TimerEvent: {}
+[3.319321] (-) TimerEvent: {}
+[3.419969] (-) TimerEvent: {}
+[3.520612] (-) TimerEvent: {}
+[3.621277] (-) TimerEvent: {}
+[3.721961] (-) TimerEvent: {}
+[3.822611] (-) TimerEvent: {}
+[3.923256] (-) TimerEvent: {}
+[4.023934] (-) TimerEvent: {}
+[4.124578] (-) TimerEvent: {}
+[4.225318] (-) TimerEvent: {}
+[4.242804] (main) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/main', 'build', '--build-base', '/home/jetson/ponyo_ws/build/main/build', 'install', '--record', '/home/jetson/ponyo_ws/build/main/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ponyo_ws/src/main', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.212.211 34600 22', 'LC_TIME': 'es_BO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/rosbostito/install/rplidar_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ponyo_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'es_BO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jetson/ponyo_ws/install:/home/jetson/rosbostito/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jetson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jetson/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'es_BO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'es_BO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jetson/ponyo_ws/install/main:/home/jetson/ponyo_ws/install/moveMotor:/home/jetson/rosbostito/install/tf_transform:/home/jetson/rosbostito/install/rplidar_ros:/home/jetson/rosbostito/install/moveMotor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_BO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_BO.UTF-8', 'LC_IDENTIFICATION': 'es_BO.UTF-8', 'PWD': '/home/jetson/ponyo_ws/build/main', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.212.211 34600 192.168.212.236 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ponyo_ws/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages:/home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages:/home/jetson/ponyo_ws/build/moveMotor:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages:/home/jetson/rosbostito/build/tf_transform:/home/jetson/rosbostito/install/tf_transform/lib/python3.10/site-packages:/home/jetson/rosbostito/build/moveMotor:/home/jetson/rosbostito/install/moveMotor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_BO.UTF-8', 'LC_PAPER': 'es_BO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jetson/rosbostito/install/rplidar_ros'}, 'shell': False}
+[4.291384] (moveMotor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/moveMotor', 'build', '--build-base', '/home/jetson/ponyo_ws/build/moveMotor/build', 'install', '--record', '/home/jetson/ponyo_ws/build/moveMotor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ponyo_ws/src/moveMotor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.212.211 34600 22', 'LC_TIME': 'es_BO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/rosbostito/install/rplidar_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ponyo_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'es_BO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jetson/ponyo_ws/install:/home/jetson/rosbostito/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jetson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jetson/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'es_BO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'es_BO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jetson/ponyo_ws/install/main:/home/jetson/ponyo_ws/install/moveMotor:/home/jetson/rosbostito/install/tf_transform:/home/jetson/rosbostito/install/rplidar_ros:/home/jetson/rosbostito/install/moveMotor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_BO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_BO.UTF-8', 'LC_IDENTIFICATION': 'es_BO.UTF-8', 'PWD': '/home/jetson/ponyo_ws/build/moveMotor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.212.211 34600 192.168.212.236 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages:/home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages:/home/jetson/ponyo_ws/build/moveMotor:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages:/home/jetson/rosbostito/build/tf_transform:/home/jetson/rosbostito/install/tf_transform/lib/python3.10/site-packages:/home/jetson/rosbostito/build/moveMotor:/home/jetson/rosbostito/install/moveMotor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_BO.UTF-8', 'LC_PAPER': 'es_BO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jetson/rosbostito/install/rplidar_ros'}, 'shell': False}
+[4.325540] (-) TimerEvent: {}
+[4.427806] (-) TimerEvent: {}
+[4.528451] (-) TimerEvent: {}
+[4.629112] (-) TimerEvent: {}
+[4.729758] (-) TimerEvent: {}
+[4.830431] (-) TimerEvent: {}
+[4.931045] (-) TimerEvent: {}
+[5.031715] (-) TimerEvent: {}
+[5.132361] (-) TimerEvent: {}
+[5.233047] (-) TimerEvent: {}
+[5.333699] (-) TimerEvent: {}
+[5.434375] (-) TimerEvent: {}
+[5.489767] (main) StdoutLine: {'line': b'running egg_info\n'}
+[5.494101] (main) StdoutLine: {'line': b'writing ../../build/main/main.egg-info/PKG-INFO\n'}
+[5.497198] (main) StdoutLine: {'line': b'writing dependency_links to ../../build/main/main.egg-info/dependency_links.txt\n'}
+[5.499053] (main) StdoutLine: {'line': b'writing entry points to ../../build/main/main.egg-info/entry_points.txt\n'}
+[5.500920] (main) StdoutLine: {'line': b'writing requirements to ../../build/main/main.egg-info/requires.txt\n'}
+[5.502612] (main) StdoutLine: {'line': b'writing top-level names to ../../build/main/main.egg-info/top_level.txt\n'}
+[5.513230] (main) StdoutLine: {'line': b"reading manifest file '../../build/main/main.egg-info/SOURCES.txt'\n"}
+[5.518401] (main) StdoutLine: {'line': b"writing manifest file '../../build/main/main.egg-info/SOURCES.txt'\n"}
+[5.519855] (main) StdoutLine: {'line': b'running build\n'}
+[5.520732] (main) StdoutLine: {'line': b'running build_py\n'}
+[5.523725] (main) StdoutLine: {'line': b'running install\n'}
+[5.526328] (main) StdoutLine: {'line': b'running install_lib\n'}
+[5.533227] (main) StdoutLine: {'line': b'running install_data\n'}
+[5.534518] (-) TimerEvent: {}
+[5.535704] (main) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.544584] (main) StdoutLine: {'line': b"removing '/home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.546480] (moveMotor) StdoutLine: {'line': b'running egg_info\n'}
+[5.547788] (main) StdoutLine: {'line': b'Copying ../../build/main/main.egg-info to /home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info\n'}
+[5.550585] (moveMotor) StdoutLine: {'line': b'writing ../../build/moveMotor/moveMotor.egg-info/PKG-INFO\n'}
+[5.551565] (moveMotor) StdoutLine: {'line': b'writing dependency_links to ../../build/moveMotor/moveMotor.egg-info/dependency_links.txt\n'}
+[5.552542] (moveMotor) StdoutLine: {'line': b'writing entry points to ../../build/moveMotor/moveMotor.egg-info/entry_points.txt\n'}
+[5.553202] (moveMotor) StdoutLine: {'line': b'writing requirements to ../../build/moveMotor/moveMotor.egg-info/requires.txt\n'}
+[5.553956] (moveMotor) StdoutLine: {'line': b'writing top-level names to ../../build/moveMotor/moveMotor.egg-info/top_level.txt\n'}
+[5.556614] (main) StdoutLine: {'line': b'running install_scripts\n'}
+[5.563102] (moveMotor) StdoutLine: {'line': b"reading manifest file '../../build/moveMotor/moveMotor.egg-info/SOURCES.txt'\n"}
+[5.564561] (moveMotor) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.568162] (moveMotor) StdoutLine: {'line': b"writing manifest file '../../build/moveMotor/moveMotor.egg-info/SOURCES.txt'\n"}
+[5.569050] (moveMotor) StdoutLine: {'line': b'running build\n'}
+[5.569637] (moveMotor) StdoutLine: {'line': b'running build_py\n'}
+[5.571681] (moveMotor) StdoutLine: {'line': b'copying moveMotor/reader.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor\n'}
+[5.574034] (moveMotor) StdoutLine: {'line': b'running install\n'}
+[5.575756] (moveMotor) StdoutLine: {'line': b'running install_lib\n'}
+[5.580305] (moveMotor) StdoutLine: {'line': b'copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/reader.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor\n'}
+[5.584503] (moveMotor) StdoutLine: {'line': b'byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/reader.py to reader.cpython-310.pyc\n'}
+[5.588328] (moveMotor) StdoutLine: {'line': b'running install_data\n'}
+[5.589170] (moveMotor) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.597150] (moveMotor) StdoutLine: {'line': b"removing '/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.598929] (moveMotor) StdoutLine: {'line': b'Copying ../../build/moveMotor/moveMotor.egg-info to /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor-0.0.0-py3.10.egg-info\n'}
+[5.603773] (moveMotor) StdoutLine: {'line': b'running install_scripts\n'}
+[5.634699] (-) TimerEvent: {}
+[5.669732] (main) StdoutLine: {'line': b'Installing MotorTopic script to /home/jetson/ponyo_ws/install/main/lib/main\n'}
+[5.673625] (main) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ponyo_ws/build/main/install.log'\n"}
+[5.734859] (-) TimerEvent: {}
+[5.760590] (moveMotor) StdoutLine: {'line': b'Installing Escucha script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor\n'}
+[5.762041] (moveMotor) StdoutLine: {'line': b'Installing Habla script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor\n'}
+[5.762552] (moveMotor) StdoutLine: {'line': b'Installing Mensaje script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor\n'}
+[5.762958] (moveMotor) StdoutLine: {'line': b'Installing MotorTopic script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor\n'}
+[5.765092] (moveMotor) StdoutLine: {'line': b'Installing PublisAndMoveJoystick script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor\n'}
+[5.765868] (moveMotor) StdoutLine: {'line': b'Installing Qcamera script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor\n'}
+[5.768048] (moveMotor) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ponyo_ws/build/moveMotor/install.log'\n"}
+[5.822168] (main) CommandEnded: {'returncode': 0}
+[5.836303] (-) TimerEvent: {}
+[5.882769] (main) JobEnded: {'identifier': 'main', 'rc': 0}
+[5.936485] (-) TimerEvent: {}
+[5.962865] (moveMotor) CommandEnded: {'returncode': 0}
+[5.991713] (moveMotor) JobEnded: {'identifier': 'moveMotor', 'rc': 0}
+[5.995404] (-) EventReactorShutdown: {}

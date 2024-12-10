@@ -1,0 +1,45 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor.egg-link (link to .)
+running egg_info
+writing ../../build/moveMotor/moveMotor.egg-info/PKG-INFO
+writing dependency_links to ../../build/moveMotor/moveMotor.egg-info/dependency_links.txt
+writing entry points to ../../build/moveMotor/moveMotor.egg-info/entry_points.txt
+writing requirements to ../../build/moveMotor/moveMotor.egg-info/requires.txt
+writing top-level names to ../../build/moveMotor/moveMotor.egg-info/top_level.txt
+reading manifest file '../../build/moveMotor/moveMotor.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/moveMotor/moveMotor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/ponyo_ws/build/moveMotor/build
+creating /home/jetson/ponyo_ws/build/moveMotor/build/lib
+creating /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+copying moveMotor/motor.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+copying moveMotor/robot.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+copying moveMotor/__init__.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+copying moveMotor/moveMotorTopic.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+copying moveMotor/joystickTest.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+running install
+running install_lib
+creating /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/motor.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/robot.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/__init__.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/moveMotorTopic.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/joystickTest.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/motor.py to motor.cpython-310.pyc
+byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/robot.py to robot.cpython-310.pyc
+byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/moveMotorTopic.py to moveMotorTopic.cpython-310.pyc
+byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/joystickTest.py to joystickTest.cpython-310.pyc
+running install_data
+copying resource/moveMotor -> /home/jetson/ponyo_ws/install/moveMotor/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/ponyo_ws/install/moveMotor/share/moveMotor
+running install_egg_info
+Copying ../../build/moveMotor/moveMotor.egg-info to /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing MotorTopic script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+Installing PublisAndMoveJoystick script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+writing list of installed files to '/home/jetson/ponyo_ws/build/moveMotor/install.log'

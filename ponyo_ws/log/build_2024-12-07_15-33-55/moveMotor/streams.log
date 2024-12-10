@@ -1,0 +1,30 @@
+[3.888s] Invoking command in '/home/jetson/ponyo_ws/src/moveMotor': PYTHONPATH=/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/moveMotor build --build-base /home/jetson/ponyo_ws/build/moveMotor/build install --record /home/jetson/ponyo_ws/build/moveMotor/install.log --single-version-externally-managed install_data
+[4.990s] running egg_info
+[4.995s] writing ../../build/moveMotor/moveMotor.egg-info/PKG-INFO
+[4.996s] writing dependency_links to ../../build/moveMotor/moveMotor.egg-info/dependency_links.txt
+[4.997s] writing entry points to ../../build/moveMotor/moveMotor.egg-info/entry_points.txt
+[4.998s] writing requirements to ../../build/moveMotor/moveMotor.egg-info/requires.txt
+[4.998s] writing top-level names to ../../build/moveMotor/moveMotor.egg-info/top_level.txt
+[5.007s] reading manifest file '../../build/moveMotor/moveMotor.egg-info/SOURCES.txt'
+[5.009s] adding license file 'LICENSE'
+[5.012s] writing manifest file '../../build/moveMotor/moveMotor.egg-info/SOURCES.txt'
+[5.012s] running build
+[5.013s] running build_py
+[5.015s] copying moveMotor/reader.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+[5.016s] running install
+[5.018s] running install_lib
+[5.022s] copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/reader.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+[5.025s] byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/reader.py to reader.cpython-310.pyc
+[5.031s] running install_data
+[5.032s] running install_egg_info
+[5.039s] removing '/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor-0.0.0-py3.10.egg-info' (and everything under it)
+[5.041s] Copying ../../build/moveMotor/moveMotor.egg-info to /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor-0.0.0-py3.10.egg-info
+[5.044s] running install_scripts
+[5.139s] Installing Escucha script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+[5.140s] Installing Habla script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+[5.141s] Installing Mensaje script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+[5.141s] Installing MotorTopic script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+[5.142s] Installing PublisAndMoveJoystick script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+[5.143s] Installing Qcamera script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+[5.145s] writing list of installed files to '/home/jetson/ponyo_ws/build/moveMotor/install.log'
+[5.315s] Invoked command in '/home/jetson/ponyo_ws/src/moveMotor' returned '0': PYTHONPATH=/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/moveMotor build --build-base /home/jetson/ponyo_ws/build/moveMotor/build install --record /home/jetson/ponyo_ws/build/moveMotor/install.log --single-version-externally-managed install_data

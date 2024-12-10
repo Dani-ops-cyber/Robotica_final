@@ -1,0 +1,39 @@
+[3.951s] Invoking command in '/home/jetson/ponyo_ws/src/main': PYTHONPATH=/home/jetson/ponyo_ws/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main build --build-base /home/jetson/ponyo_ws/build/main/build install --record /home/jetson/ponyo_ws/build/main/install.log --single-version-externally-managed install_data
+[4.975s] running egg_info
+[4.979s] creating ../../build/main/main.egg-info
+[4.980s] writing ../../build/main/main.egg-info/PKG-INFO
+[4.980s] writing dependency_links to ../../build/main/main.egg-info/dependency_links.txt
+[4.981s] writing entry points to ../../build/main/main.egg-info/entry_points.txt
+[4.981s] writing requirements to ../../build/main/main.egg-info/requires.txt
+[4.982s] writing top-level names to ../../build/main/main.egg-info/top_level.txt
+[4.982s] writing manifest file '../../build/main/main.egg-info/SOURCES.txt'
+[5.000s] reading manifest file '../../build/main/main.egg-info/SOURCES.txt'
+[5.001s] writing manifest file '../../build/main/main.egg-info/SOURCES.txt'
+[5.001s] running build
+[5.002s] running build_py
+[5.002s] creating /home/jetson/ponyo_ws/build/main/build
+[5.003s] creating /home/jetson/ponyo_ws/build/main/build/lib
+[5.003s] creating /home/jetson/ponyo_ws/build/main/build/lib/main
+[5.004s] copying main/__init__.py -> /home/jetson/ponyo_ws/build/main/build/lib/main
+[5.004s] copying main/examen.py -> /home/jetson/ponyo_ws/build/main/build/lib/main
+[5.004s] copying main/basic.py -> /home/jetson/ponyo_ws/build/main/build/lib/main
+[5.005s] running install
+[5.005s] running install_lib
+[5.008s] creating /home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main
+[5.009s] copying /home/jetson/ponyo_ws/build/main/build/lib/main/__init__.py -> /home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main
+[5.009s] copying /home/jetson/ponyo_ws/build/main/build/lib/main/examen.py -> /home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main
+[5.010s] copying /home/jetson/ponyo_ws/build/main/build/lib/main/basic.py -> /home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main
+[5.012s] byte-compiling /home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main/__init__.py to __init__.cpython-310.pyc
+[5.012s] byte-compiling /home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main/examen.py to examen.cpython-310.pyc
+[5.014s] byte-compiling /home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main/basic.py to basic.cpython-310.pyc
+[5.016s] running install_data
+[5.017s] creating /home/jetson/ponyo_ws/install/main/share/ament_index
+[5.017s] creating /home/jetson/ponyo_ws/install/main/share/ament_index/resource_index
+[5.017s] creating /home/jetson/ponyo_ws/install/main/share/ament_index/resource_index/packages
+[5.018s] copying resource/main -> /home/jetson/ponyo_ws/install/main/share/ament_index/resource_index/packages
+[5.018s] copying package.xml -> /home/jetson/ponyo_ws/install/main/share/main
+[5.019s] running install_egg_info
+[5.024s] Copying ../../build/main/main.egg-info to /home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info
+[5.028s] running install_scripts
+[5.111s] writing list of installed files to '/home/jetson/ponyo_ws/build/main/install.log'
+[5.225s] Invoked command in '/home/jetson/ponyo_ws/src/main' returned '0': PYTHONPATH=/home/jetson/ponyo_ws/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main build --build-base /home/jetson/ponyo_ws/build/main/build install --record /home/jetson/ponyo_ws/build/main/install.log --single-version-externally-managed install_data

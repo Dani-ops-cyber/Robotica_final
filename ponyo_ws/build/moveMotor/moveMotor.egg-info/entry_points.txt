@@ -1,0 +1,8 @@
+[console_scripts]
+Escucha = moveMotor.escuchando:main
+Habla = moveMotor.hablando:main
+Mensaje = moveMotor.mensajes:main
+MotorTopic = moveMotor.moveMotorTopic:main
+PublisAndMoveJoystick = moveMotor.joystickTest:main
+Qcamera = moveMotor.reader:main
+

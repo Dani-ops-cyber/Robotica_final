@@ -1,0 +1,49 @@
+[3.913s] Invoking command in '/home/jetson/ponyo_ws/build/moveMotor': PYTHONPATH=/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jetson/ponyo_ws/build/moveMotor/build
+[4.997s] running develop
+[5.002s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.002s]   warnings.warn(
+[5.717s] Removing /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor.egg-link (link to .)
+[5.850s] Invoked command in '/home/jetson/ponyo_ws/build/moveMotor' returned '0': PYTHONPATH=/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/jetson/ponyo_ws/build/moveMotor/build
+[5.855s] Invoking command in '/home/jetson/ponyo_ws/src/moveMotor': PYTHONPATH=/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/moveMotor build --build-base /home/jetson/ponyo_ws/build/moveMotor/build install --record /home/jetson/ponyo_ws/build/moveMotor/install.log --single-version-externally-managed install_data --force
+[6.867s] running egg_info
+[6.871s] writing ../../build/moveMotor/moveMotor.egg-info/PKG-INFO
+[6.872s] writing dependency_links to ../../build/moveMotor/moveMotor.egg-info/dependency_links.txt
+[6.872s] writing entry points to ../../build/moveMotor/moveMotor.egg-info/entry_points.txt
+[6.873s] writing requirements to ../../build/moveMotor/moveMotor.egg-info/requires.txt
+[6.873s] writing top-level names to ../../build/moveMotor/moveMotor.egg-info/top_level.txt
+[6.880s] reading manifest file '../../build/moveMotor/moveMotor.egg-info/SOURCES.txt'
+[6.882s] adding license file 'LICENSE'
+[6.884s] writing manifest file '../../build/moveMotor/moveMotor.egg-info/SOURCES.txt'
+[6.885s] running build
+[6.885s] running build_py
+[6.886s] creating /home/jetson/ponyo_ws/build/moveMotor/build
+[6.886s] creating /home/jetson/ponyo_ws/build/moveMotor/build/lib
+[6.887s] creating /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+[6.887s] copying moveMotor/motor.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+[6.888s] copying moveMotor/robot.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+[6.888s] copying moveMotor/__init__.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+[6.888s] copying moveMotor/moveMotorTopic.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+[6.889s] copying moveMotor/joystickTest.py -> /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor
+[6.890s] running install
+[6.891s] running install_lib
+[6.894s] creating /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+[6.894s] copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/motor.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+[6.895s] copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/robot.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+[6.895s] copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/__init__.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+[6.896s] copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/moveMotorTopic.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+[6.896s] copying /home/jetson/ponyo_ws/build/moveMotor/build/lib/moveMotor/joystickTest.py -> /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor
+[6.898s] byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/motor.py to motor.cpython-310.pyc
+[6.900s] byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/robot.py to robot.cpython-310.pyc
+[6.902s] byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/__init__.py to __init__.cpython-310.pyc
+[6.903s] byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/moveMotorTopic.py to moveMotorTopic.cpython-310.pyc
+[6.904s] byte-compiling /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor/joystickTest.py to joystickTest.cpython-310.pyc
+[6.906s] running install_data
+[6.907s] copying resource/moveMotor -> /home/jetson/ponyo_ws/install/moveMotor/share/ament_index/resource_index/packages
+[6.907s] copying package.xml -> /home/jetson/ponyo_ws/install/moveMotor/share/moveMotor
+[6.908s] running install_egg_info
+[6.914s] Copying ../../build/moveMotor/moveMotor.egg-info to /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor-0.0.0-py3.10.egg-info
+[6.919s] running install_scripts
+[7.003s] Installing MotorTopic script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+[7.005s] Installing PublisAndMoveJoystick script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+[7.005s] writing list of installed files to '/home/jetson/ponyo_ws/build/moveMotor/install.log'
+[7.121s] Invoked command in '/home/jetson/ponyo_ws/src/moveMotor' returned '0': PYTHONPATH=/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/moveMotor build --build-base /home/jetson/ponyo_ws/build/moveMotor/build install --record /home/jetson/ponyo_ws/build/moveMotor/install.log --single-version-externally-managed install_data --force

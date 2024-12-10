@@ -1,0 +1,27 @@
+[2.543s] Invoking command in '/home/jetson/ponyo_ws/build/moveMotor': PYTHONPATH=/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/ponyo_ws/build/moveMotor/build --no-deps symlink_data
+[3.511s] running develop
+[3.514s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.514s]   warnings.warn(
+[4.012s] running egg_info
+[4.013s] creating moveMotor.egg-info
+[4.013s] writing moveMotor.egg-info/PKG-INFO
+[4.014s] writing dependency_links to moveMotor.egg-info/dependency_links.txt
+[4.014s] writing entry points to moveMotor.egg-info/entry_points.txt
+[4.015s] writing requirements to moveMotor.egg-info/requires.txt
+[4.015s] writing top-level names to moveMotor.egg-info/top_level.txt
+[4.015s] writing manifest file 'moveMotor.egg-info/SOURCES.txt'
+[4.021s] reading manifest file 'moveMotor.egg-info/SOURCES.txt'
+[4.023s] writing manifest file 'moveMotor.egg-info/SOURCES.txt'
+[4.030s] running build_ext
+[4.030s] Creating /home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages/moveMotor.egg-link (link to .)
+[4.033s] Installing MotorTopic script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+[4.034s] Installing PublisAndMoveJoystick script to /home/jetson/ponyo_ws/install/moveMotor/lib/moveMotor
+[4.035s] 
+[4.035s] Installed /home/jetson/ponyo_ws/build/moveMotor
+[4.036s] running symlink_data
+[4.036s] creating /home/jetson/ponyo_ws/install/moveMotor/share/ament_index
+[4.037s] creating /home/jetson/ponyo_ws/install/moveMotor/share/ament_index/resource_index
+[4.037s] creating /home/jetson/ponyo_ws/install/moveMotor/share/ament_index/resource_index/packages
+[4.038s] symbolically linking /home/jetson/ponyo_ws/build/moveMotor/resource/moveMotor -> /home/jetson/ponyo_ws/install/moveMotor/share/ament_index/resource_index/packages
+[4.038s] symbolically linking /home/jetson/ponyo_ws/build/moveMotor/package.xml -> /home/jetson/ponyo_ws/install/moveMotor/share/moveMotor
+[4.160s] Invoked command in '/home/jetson/ponyo_ws/build/moveMotor' returned '0': PYTHONPATH=/home/jetson/ponyo_ws/build/moveMotor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/moveMotor/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jetson/ponyo_ws/build/moveMotor/build --no-deps symlink_data

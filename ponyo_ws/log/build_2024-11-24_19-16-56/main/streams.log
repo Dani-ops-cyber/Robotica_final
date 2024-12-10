@@ -1,0 +1,21 @@
+[4.556s] Invoking command in '/home/jetson/ponyo_ws/src/main': PYTHONPATH=/home/jetson/ponyo_ws/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main build --build-base /home/jetson/ponyo_ws/build/main/build install --record /home/jetson/ponyo_ws/build/main/install.log --single-version-externally-managed install_data
+[5.651s] running egg_info
+[5.655s] writing ../../build/main/main.egg-info/PKG-INFO
+[5.655s] writing dependency_links to ../../build/main/main.egg-info/dependency_links.txt
+[5.656s] writing entry points to ../../build/main/main.egg-info/entry_points.txt
+[5.657s] writing requirements to ../../build/main/main.egg-info/requires.txt
+[5.657s] writing top-level names to ../../build/main/main.egg-info/top_level.txt
+[5.665s] reading manifest file '../../build/main/main.egg-info/SOURCES.txt'
+[5.668s] writing manifest file '../../build/main/main.egg-info/SOURCES.txt'
+[5.669s] running build
+[5.669s] running build_py
+[5.671s] running install
+[5.672s] running install_lib
+[5.677s] running install_data
+[5.677s] running install_egg_info
+[5.684s] removing '/home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info' (and everything under it)
+[5.685s] Copying ../../build/main/main.egg-info to /home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages/main-0.0.0-py3.10.egg-info
+[5.689s] running install_scripts
+[5.779s] Installing MotorTopic script to /home/jetson/ponyo_ws/install/main/lib/main
+[5.780s] writing list of installed files to '/home/jetson/ponyo_ws/build/main/install.log'
+[5.913s] Invoked command in '/home/jetson/ponyo_ws/src/main' returned '0': PYTHONPATH=/home/jetson/ponyo_ws/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ponyo_ws/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main build --build-base /home/jetson/ponyo_ws/build/main/build install --record /home/jetson/ponyo_ws/build/main/install.log --single-version-externally-managed install_data
